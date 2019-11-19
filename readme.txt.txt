@@ -79,4 +79,14 @@ The table in page three, shows the comparison of the results for the model we im
 should be said that the accuracy calculated for Random forest and SVM is not based on the test
 set and it is based on the validation set that we had split from train set. As it is clear on the table,
 the best result we achived was through using Naive bayse with Gaussian distribution.
-2
+
+Table 1: Comparison of the accuracy of different models
+Models Liberary used for implementtion Public Score Private Score
+1 Naive basye numpy 0.34909 0.35766
+2 NB with Laplace numpy 0.55988 0.55223
+3 NB Log Prob. numpy 0.56666 0.55866
+4 NB Gaussian numpy, sklearn 0.59011 0.58604
+5 NB Bernoull numpy, sklearn 0.54221 -
+6 SVM sklearn 0.54011 -
+7 Random Forest sklearn 0.48011 -
+3
